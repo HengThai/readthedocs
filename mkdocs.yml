@@ -3,12 +3,12 @@ markdown_extensions:
   - footnotes
   - admonition
   - codehilite
-  - pymdownx.mark
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.progressbar
-  - pymdownx.tilde
+  #- pymdownx.mark
+  #- pymdownx.tabbed
+  #- pymdownx.tasklist:
+  #    custom_checkbox: true
+  #- pymdownx.progressbar
+  #- pymdownx.tilde
 plugins:
   - search # necessary for search to work
   - git-revision-date-localized:
