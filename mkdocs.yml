@@ -1,12 +1,4 @@
 site_name: SDP Meeting Minute
-theme:
-  custom_dir: custom_dir/
-  language: 'en'
-  palette:
-    primary: blue
-    accent: blue
-  features:
-    - instant
 markdown_extensions:
   - footnotes
   - admonition
