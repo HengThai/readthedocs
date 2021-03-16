@@ -1,0 +1,30 @@
+site_name: SDP Meeting Minute
+theme:
+  name: 'material'
+  custom_dir: custom_dir/
+  language: 'en'
+  palette:
+    primary: blue
+    accent: blue
+  features:
+    - instant
+markdown_extensions:
+  - footnotes
+  - admonition
+  - codehilite
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.progressbar
+  - pymdownx.tilde
+plugins:
+  - search # necessary for search to work
+  - git-revision-date-localized:
+        type: timeago
+  
+extra_css:
+  - stylesheets/extra.css
