@@ -1,6 +1,5 @@
 site_name: SDP Meeting Minute
 theme:
-  name: 'material'
   custom_dir: custom_dir/
   language: 'en'
   palette:
