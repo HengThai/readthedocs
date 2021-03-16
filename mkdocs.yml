@@ -9,10 +9,10 @@ markdown_extensions:
   #    custom_checkbox: true
   #- pymdownx.progressbar
   #- pymdownx.tilde
-plugins:
-  - search # necessary for search to work
-  - git-revision-date-localized:
-        type: timeago
+# plugins:
+#  - search # necessary for search to work
+#  - git-revision-date-localized:
+#        type: timeago
   
 extra_css:
   - stylesheets/extra.css
